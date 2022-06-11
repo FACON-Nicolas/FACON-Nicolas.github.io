@@ -3,47 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://facon-nicolas.github.io/categories/</loc>
     <lastmod>2022-05-25T13:18:46+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/projets/jeu-de-la-vie/</loc>
+    <loc>https://facon-nicolas.github.io/projets/jeu-de-la-vie/</loc>
     <lastmod>2022-05-04T16:48:24+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://facon-nicolas.github.io/</loc>
     <lastmod>2022-05-04T16:48:24+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/projets/</loc>
+    <loc>https://facon-nicolas.github.io/projets/</loc>
     <lastmod>2022-05-04T16:48:24+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/projets/tetris/</loc>
+    <loc>https://facon-nicolas.github.io/projets/tetris/</loc>
     <lastmod>2022-05-04T16:48:24+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/apropos/</loc>
+    <loc>https://facon-nicolas.github.io/apropos/</loc>
     <lastmod>2022-05-04T16:48:24+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/blog/</loc>
+    <loc>https://facon-nicolas.github.io/blog/</loc>
     <lastmod>2022-04-27T17:16:07+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/blog/mon-premier-article/</loc>
+    <loc>https://facon-nicolas.github.io/blog/mon-premier-article/</loc>
     <lastmod>2022-04-27T17:16:07+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://facon-nicolas.github.io/tags/</loc>
   </url>
   
 </urlset>

@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Portfolio</title>
-    <link>http://example.org/</link>
+    <link>https://facon-nicolas.github.io/</link>
     <description>Recent content on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 04 May 2022 16:48:24 +0200</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://facon-nicolas.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Jeu de la vie</title>
-      <link>http://example.org/projets/jeu-de-la-vie/</link>
+      <link>https://facon-nicolas.github.io/projets/jeu-de-la-vie/</link>
       <pubDate>Wed, 04 May 2022 16:48:24 +0200</pubDate>
       
-      <guid>http://example.org/projets/jeu-de-la-vie/</guid>
+      <guid>https://facon-nicolas.github.io/projets/jeu-de-la-vie/</guid>
       <description>À propos du projet Jeu de la vie Cet article contient le code source d’une copie d’un jeu de la vie développé en python à l’aide des bibliothèques pygame et pygame_gui
 Le jeu de la vie est un jeu à automate cellulaire, le but du jeu est de donner une grille de cellules vivantes (couleur noire) et de cellules mortes (couleur blanches), et une fois la grille donnée, cette dernière va évoluer de sorte à donner vie ou tuer des cellules en fonction de ses voisines, une cellule :</description>
     </item>
     
     <item>
       <title>Tetris</title>
-      <link>http://example.org/projets/tetris/</link>
+      <link>https://facon-nicolas.github.io/projets/tetris/</link>
       <pubDate>Wed, 04 May 2022 16:48:24 +0200</pubDate>
       
-      <guid>http://example.org/projets/tetris/</guid>
+      <guid>https://facon-nicolas.github.io/projets/tetris/</guid>
       <description>À propos du projet Tetris Cet article contient le code source d&amp;rsquo;une copie d&amp;rsquo;un Tetris développé en python à l&amp;rsquo;aide des bibliothèques pygame et pygame_gui
 Sommaire  Sommaire Développeur Features Installation Releases Controles Versions  Developpeur  Facon Nicolas  Features Ici seront détaillées les features que j&amp;rsquo;ai installées dans le projet, ici nous avons :
  une interface pause   une interface fin de partie  Installation Pour installer le projet, veuillez cliquer ici</description>
@@ -34,19 +34,19 @@ Sommaire  Sommaire Développeur Features Installation Releases Controles Version
     
     <item>
       <title>À propos</title>
-      <link>http://example.org/apropos/</link>
+      <link>https://facon-nicolas.github.io/apropos/</link>
       <pubDate>Wed, 04 May 2022 16:48:24 +0200</pubDate>
       
-      <guid>http://example.org/apropos/</guid>
+      <guid>https://facon-nicolas.github.io/apropos/</guid>
       <description>La page &amp;ldquo;à propos&amp;rdquo; </description>
     </item>
     
     <item>
       <title>Mon Premier Article</title>
-      <link>http://example.org/blog/mon-premier-article/</link>
+      <link>https://facon-nicolas.github.io/blog/mon-premier-article/</link>
       <pubDate>Wed, 27 Apr 2022 17:16:07 +0200</pubDate>
       
-      <guid>http://example.org/blog/mon-premier-article/</guid>
+      <guid>https://facon-nicolas.github.io/blog/mon-premier-article/</guid>
       <description>Un. Deux ? Trois ! </description>
     </item>
     
