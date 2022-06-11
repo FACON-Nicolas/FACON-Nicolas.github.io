@@ -22,5 +22,5 @@ jobs:
           HUGO_VERSION: 0.99.0
           HUGO_EXTENDED: true
           TARGET_REPO: FACON-Nicolas/FACON-Nicolas.github.io
-          TARGET_BRANCH: gh-pages
+          TARGET_BRANCH: main
           TOKEN: ${{ secrets.hugo }}
