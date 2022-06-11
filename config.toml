@@ -1,4 +1,4 @@
-baseURL = 'http://facon-nicolas.github.io/'
+baseURL = 'https://facon-nicolas.github.io/'
 languageCode = 'en-us'
 title = 'Portfolio'
 theme= 'iutdelens'
