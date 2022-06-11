@@ -1,0 +1,32 @@
+<div class="card column">
+    <p class="card-header-title is-centered">
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </p>
+    <div class="card-image">
+        <figure class="image is-16by9">
+            {{ with .Params.images }}
+            <img src="{{ index . 0 }}" alt="image du projet">
+            {{ end }}
+        </figure>
+    </div>
+    <div class="card-content">
+        <div class="media">
+            <div class="media-left">
+                <figure class="image is-48x48">
+                    {{ with .Site.Params.authorImage }}
+                    <img class="is-rounded" src={{ . }} alt="moi">
+                    {{ end }}
+                </figure>
+            </div>
+            <div class="media-content">
+                <p class="title is-4">{{ .Site.Params.Author }}</p>
+            </div>
+        </div>
+        <div class="content">
+            
+            <a href="#">#css</a> <a href="#">#responsive</a>
+            <br>
+            <time datetime>{{ .PublishDate.Format "January 2, 2006" }}</time>
+        </div>
+    </div>
+</div>

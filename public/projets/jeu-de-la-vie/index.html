@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+<link rel="stylesheet" href="/css/style.css" /><body><header>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" title="home" class="navbar-item">
+                    <span class="logo"><h1>Portfolio</h1></span>
+                </a>
+                
+                <a href="https://github.com/FACON-Nicolas" class="navbar-item is-hidden-desktop" title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span>
+                </a>
+                
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+                
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    
+                    <a href="/categories" class="navbar-item">Catégories</a>
+                    
+                    <a href="/projets" class="navbar-item">Projets</a>
+                    
+                </div>
+                <div class="navbar-end">
+                    
+                    <a href="https://github.com/FACON-Nicolas" class="navbar-item is-hidden-touch" title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span></a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script>
+        $(document).ready(function () {
+            $(".navbar-burger").click(function () {
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+            })
+        })
+    </script>
+</header>
+<div id="content">
+<section class="section">
+    <article>
+        <div class="columns is-centered">
+            <div class="column max-800px">
+                <h1 class="title is-1">Jeu de la vie</h1>
+                
+                <br>
+                <div class="columns">
+                    <div class="column is-2">
+                        <p class="is-2">Facon Nicolas</p>
+                    </div>
+                    <div class="column is-2">
+                        <p class="is-2">May 4, 2022</p>
+                    </div>
+                    
+                    <div class="column is-2 is-rounded">
+                        <figure class="image is-48x48">
+                            <img class="is-rounded" src="/images/me.png" />
+                        </figure>
+                    </div>
+                </div>
+                
+                <div> 1  Minute </p>
+                </div>
+                <br />
+                <div class="content max-800px">
+                    <h1 id="à-propos-du-projet-jeu-de-la-viehttpsgithubcomfacon-nicolasconways-life-game">À propos du projet <a href="https://github.com/FACON-Nicolas/conways-life-game">Jeu de la vie</a></h1>
+<p><img src="https://img.shields.io/badge/Release-v1.0-blueviolet" alt="">
+<img src="https://img.shields.io/badge/Language-python-005255" alt="">
+<img src="https://img.shields.io/badge/Libraries-pygame_pygame__gui-00cfff" alt="">
+<img src="https://img.shields.io/badge/Size-2.4Mo-f12222" alt=""></p>
+<p>Cet article contient le code source d’une copie d’un jeu de la vie développé en python à l’aide des bibliothèques pygame et pygame_gui</p>
+<p><img src="https://camo.githubusercontent.com/4ddd19aa3490eb63175806b9d4cf4b2a351772b58963fb207e045441de6a7dba/68747470733a2f2f692e6962622e636f2f715247726266772f636f6e776179732e706e67" alt=""></p>
+<p>Le jeu de la vie est un jeu à automate cellulaire, le but du jeu est de donner une grille de cellules vivantes (couleur noire) et de cellules mortes (couleur blanches), et une fois la grille donnée, cette dernière va évoluer de sorte à donner vie ou tuer des cellules en fonction de ses voisines, une cellule :</p>
+<ul>
+<li>née ou reste en vie si elle possède 3 voisines vivantes</li>
+<li>reste dans le même état si elle possède 2 voisines vivantes</li>
+<li>meurt dans le reste des cas</li>
+</ul>
+<p><img src="https://www.fil.univ-lille1.fr/~L1S2API/CoursTP/_images/R123.jpg" alt=""></p>
+<h1 id="sommaire">Sommaire</h1>
+<ul>
+<li><strong><a href="#sommaire">Sommaire</a></strong></li>
+<li><strong><a href="#developpeur">Développeur</a></strong></li>
+<li><strong><a href="#features">Features</a></strong></li>
+<li><strong><a href="#contr%C3%B4les">Controles</a></strong></li>
+<li><strong><a href="#versions">Versions</a></strong></li>
+</ul>
+<h1 id="developpeur">Developpeur</h1>
+<ul>
+<li><strong><a href="https://www.github.com/FACON-Nicolas">Facon Nicolas</a></strong></li>
+</ul>
+<h1 id="features">Features</h1>
+<p>Pour permettre la meilleure des utilisations de l&rsquo;application, j&rsquo;ai ajouté:</p>
+<ul>
+<li>la visualisation de l'évolution étape par étape</li>
+<li>la possibilité de revisionner une étape précédente</li>
+<li>la possibilité de générer une grille aléatoire</li>
+</ul>
+<h1 id="versions">Versions</h1>
+<p><strong>1.0.0</strong> : création du projet.</p>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </article>
+</section>
+
+        </div><footer class="footer">
+    <div class="container">
+        <div class="columns has-text-centered">
+            
+                <div class="column is-narrow">
+                    <a href="/projets" class="">projets</a>
+                </div>
+            
+                <div class="column is-narrow">
+                    <a href="/apropos" class="">À propos</a>
+                </div>
+            
+        </div>
+    </div>
+</footer>
+</body>
+</html>

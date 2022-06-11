@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+<link rel="stylesheet" href="/css/style.css" /><body><header>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" title="home" class="navbar-item">
+                    <span class="logo"><h1>Portfolio</h1></span>
+                </a>
+                
+                <a href="https://github.com/FACON-Nicolas" class="navbar-item is-hidden-desktop" title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span>
+                </a>
+                
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+                
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    
+                    <a href="/categories" class="navbar-item">Catégories</a>
+                    
+                    <a href="/projets" class="navbar-item">Projets</a>
+                    
+                </div>
+                <div class="navbar-end">
+                    
+                    <a href="https://github.com/FACON-Nicolas" class="navbar-item is-hidden-touch" title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span></a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script>
+        $(document).ready(function () {
+            $(".navbar-burger").click(function () {
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+            })
+        })
+    </script>
+</header>
+<div id="content">
+<section class="section">
+    <article>
+        <div class="columns is-centered">
+            <div class="column max-800px">
+                <h1 class="title is-1">Projets</h1>
+                <div class="content">
+                    
+                </div>
+                <div class="is-flex">
+                <div class="card column is-centered">
+    <div class="card-image">
+        <div class="pl-4 card-content">
+            <p style="text-align: center; font-size: 30px; font-weight: 400;"><a style="color: black;"
+                    href="http://example.org/projets/jeu-de-la-vie/">Jeu de la vie</a></p>
+        </div>
+        
+        <div class="is-centered">
+            <figure class="image is-1" style="width: 70%; margin: auto;">
+                <img class ="is-centered" style="padding: 0;" class="image is-centered is-16by9" src="/images/projets/conway.png" />
+            </figure>
+        </div>
+        
+        <div style="margin: 10px;">
+            <p><strong>Author: </strong>Facon Nicolas
+        </div>
+        <div>
+            
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque blanditiis et laborum velit nesciunt! Voluptatum corrupti blanditiis perferendis accusamus tenetur ipsam, nostrum culpa nobis quasi aut laudantium rerum non optio iste magni quaerat nihil fugiat officia hic cum dolore consequuntur sed? Impedit velit porro quod autem placeat non optio nihil?
+        </div>
+    </div>
+</div><div class="card column is-centered">
+    <div class="card-image">
+        <div class="pl-4 card-content">
+            <p style="text-align: center; font-size: 30px; font-weight: 400;"><a style="color: black;"
+                    href="http://example.org/projets/tetris/">Tetris</a></p>
+        </div>
+        
+        <div class="is-centered">
+            <figure class="image is-1" style="width: 70%; margin: auto;">
+                <img class ="is-centered" style="padding: 0;" class="image is-centered is-16by9" src="/images/projets/tetris.png" />
+            </figure>
+        </div>
+        
+        <div style="margin: 10px;">
+            <p><strong>Author: </strong>Facon Nicolas
+        </div>
+        <div>
+            
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque blanditiis et laborum velit nesciunt! Voluptatum corrupti blanditiis perferendis accusamus tenetur ipsam, nostrum culpa nobis quasi aut laudantium rerum non optio iste magni quaerat nihil fugiat officia hic cum dolore consequuntur sed? Impedit velit porro quod autem placeat non optio nihil?
+        </div>
+    </div>
+</div>
+                </div></div>
+        </div>
+    </article>
+</section>
+
+        </div><footer class="footer">
+    <div class="container">
+        <div class="columns has-text-centered">
+            
+                <div class="column is-narrow">
+                    <a href="/projets" class="">projets</a>
+                </div>
+            
+                <div class="column is-narrow">
+                    <a href="/apropos" class="">À propos</a>
+                </div>
+            
+        </div>
+    </div>
+</footer>
+</body>
+</html>

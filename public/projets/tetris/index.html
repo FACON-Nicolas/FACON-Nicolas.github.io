@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+<link rel="stylesheet" href="/css/style.css" /><body><header>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" title="home" class="navbar-item">
+                    <span class="logo"><h1>Portfolio</h1></span>
+                </a>
+                
+                <a href="https://github.com/FACON-Nicolas" class="navbar-item is-hidden-desktop" title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span>
+                </a>
+                
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+                
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    
+                    <a href="/categories" class="navbar-item">Catégories</a>
+                    
+                    <a href="/projets" class="navbar-item">Projets</a>
+                    
+                </div>
+                <div class="navbar-end">
+                    
+                    <a href="https://github.com/FACON-Nicolas" class="navbar-item is-hidden-touch" title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span></a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script>
+        $(document).ready(function () {
+            $(".navbar-burger").click(function () {
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+            })
+        })
+    </script>
+</header>
+<div id="content">
+<section class="section">
+    <article>
+        <div class="columns is-centered">
+            <div class="column max-800px">
+                <h1 class="title is-1">Tetris</h1>
+                
+                <br>
+                <div class="columns">
+                    <div class="column is-2">
+                        <p class="is-2">Facon Nicolas</p>
+                    </div>
+                    <div class="column is-2">
+                        <p class="is-2">May 4, 2022</p>
+                    </div>
+                    
+                    <div class="column is-2 is-rounded">
+                        <figure class="image is-48x48">
+                            <img class="is-rounded" src="/images/me.png" />
+                        </figure>
+                    </div>
+                </div>
+                
+                <div> 1  Minute </p>
+                </div>
+                <br />
+                <div class="content max-800px">
+                    <h1 id="à-propos-du-projet-tetrishttpsgithubcomfacon-nicolastetris">À propos du projet <a href="https://github.com/FACON-Nicolas/Tetris">Tetris</a></h1>
+<p><img src="https://img.shields.io/badge/Release-v1.0.1-blueviolet" alt="">
+<img src="https://img.shields.io/badge/Language-python-005255" alt="">
+<img src="https://img.shields.io/badge/Libraries-pygame_pygame__gui-00cfff" alt="">
+<img src="https://img.shields.io/badge/Size-2.4Mo-f12222" alt=""></p>
+<p>Cet article contient le code source d&rsquo;une copie d&rsquo;un Tetris développé en python à l&rsquo;aide des bibliothèques pygame et pygame_gui</p>
+<p><img src="https://raw.githubusercontent.com/FACON-Nicolas/Tetris/main/images/tetris.png" alt=""></p>
+<h1 id="sommaire">Sommaire</h1>
+<ul>
+<li><strong><a href="#sommaire">Sommaire</a></strong></li>
+<li><strong><a href="#developpeur">Développeur</a></strong></li>
+<li><strong><a href="#features">Features</a></strong></li>
+<li><strong><a href="#installation">Installation</a></strong></li>
+<li><strong><a href="#releases">Releases</a></strong></li>
+<li><strong><a href="#contr%C3%B4les">Controles</a></strong></li>
+<li><strong><a href="#versions">Versions</a></strong></li>
+</ul>
+<h1 id="developpeur">Developpeur</h1>
+<ul>
+<li><strong><a href="https://www.github.com/FACON-Nicolas/">Facon Nicolas</a></strong></li>
+</ul>
+<h1 id="features">Features</h1>
+<p>Ici seront détaillées les features que j&rsquo;ai installées dans le projet, ici nous avons :</p>
+<ul>
+<li>une interface pause</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/FACON-Nicolas/Tetris/main/images/paused.png" alt=""></p>
+<ul>
+<li>une interface fin de partie</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/FACON-Nicolas/Tetris/main/images/game_over.png" alt=""></p>
+<h1 id="installation">Installation</h1>
+<p>Pour installer le projet, veuillez <a href="https://github.com/FACON-Nicolas/Tetris/releases">cliquer ici</a></p>
+<h1 id="releases">Releases</h1>
+<ul>
+<li><strong>1.0.0</strong> : 12 décembre 2021</li>
+<li><strong>1.0.1</strong> : 20 avril 2022</li>
+</ul>
+<h1 id="contrôles">Contrôles</h1>
+<table>
+<thead>
+<tr>
+<th>Keys</th>
+<th>Actions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UP</td>
+<td>rotate</td>
+</tr>
+<tr>
+<td>DOWN</td>
+<td>down fast</td>
+</tr>
+<tr>
+<td>RIGHT</td>
+<td>move right</td>
+</tr>
+<tr>
+<td>LEFT</td>
+<td>move left</td>
+</tr>
+<tr>
+<td>SPACE</td>
+<td>place piece</td>
+</tr>
+<tr>
+<td>ESCAPE</td>
+<td>pause / resume</td>
+</tr>
+</tbody>
+</table>
+<h1 id="versions">Versions</h1>
+<h2 id="101">1.0.1</h2>
+<ul>
+<li>correction des bugs</li>
+<li>Programmation orientée objet améliorée</li>
+<li>jeu multi-plateforme (W10, Linux)</li>
+<li>ajout d&rsquo;une base de données (pas encore exploitée à toutes ses capacités)</li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </article>
+</section>
+
+        </div><footer class="footer">
+    <div class="container">
+        <div class="columns has-text-centered">
+            
+                <div class="column is-narrow">
+                    <a href="/projets" class="">projets</a>
+                </div>
+            
+                <div class="column is-narrow">
+                    <a href="/apropos" class="">À propos</a>
+                </div>
+            
+        </div>
+    </div>
+</footer>
+</body>
+</html>

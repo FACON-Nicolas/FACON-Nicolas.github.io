@@ -1,0 +1,39 @@
+{{ define "main" }}
+<section class="section">
+    <article>
+        <div class="columns is-centered">
+            <div class="column max-800px">
+                <h1 class="title is-1">{{ .Title }}</h1>
+                {{ range $idx, $category := .Params.categories }}
+                {{- if ne $idx 0 }}, {{ end }}<a href="{{ " categories/" | relURL }}{{ $category | urlize }}">
+                    {{ $category }}
+                </a>
+                {{- end }}
+                <br>
+                <div class="columns">
+                    <div class="column is-2">
+                        <p class="is-2">{{ .Site.Params.Author }}</p>
+                    </div>
+                    <div class="column is-2">
+                        <p class="is-2">{{ .PublishDate.Format "January 2, 2006" }}</p>
+                    </div>
+                    {{ with .Site.Params.authorImage }}
+                    <div class="column is-2 is-rounded">
+                        <figure class="image is-48x48">
+                            <img class="is-rounded" src="{{ . }}" />
+                        </figure>
+                    </div>
+                </div>
+                {{ end }}
+                <div> {{ .ReadingTime }} {{ if eq .ReadingTime 1 }} Minute {{ else }} Minutes {{ end }}</p>
+                </div>
+                <br />
+                <div class="content max-800px">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+        </div>
+    </article>
+</section>
+{{ end }}

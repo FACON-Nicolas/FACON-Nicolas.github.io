@@ -1,0 +1,31 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Portfolio'
+theme= 'iutdelens'
+paginate = 3
+
+[[menu.main]]
+name= "Projets"
+url = "/projets"
+
+[[menu.social]]
+  name = "GitHub"
+  url = "https://github.com/FACON-Nicolas"
+  pre = "<i class='fab fa-github'></i>"
+
+
+[[menu.main]]
+name = "Catégories"
+url = "/categories"
+
+[[menu.footer]]
+name = "projets"
+url = "/projets"
+
+[[menu.footer]]
+name = "Catégories"
+url = "/categories"
+
+[params]
+author = "Facon Nicolas"
+authorImage = "/images/me.png"

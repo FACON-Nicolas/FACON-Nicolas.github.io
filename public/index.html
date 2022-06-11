@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+<link rel="stylesheet" href="/css/style.css" /><body><header>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" title="home" class="navbar-item">
+                    <span class="logo"><h1>Portfolio</h1></span>
+                </a>
+                
+                <a href="https://github.com/FACON-Nicolas" class="navbar-item is-hidden-desktop" title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span>
+                </a>
+                
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+                
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    
+                    <a href="/categories" class="navbar-item">Catégories</a>
+                    
+                    <a href="/projets" class="navbar-item">Projets</a>
+                    
+                </div>
+                <div class="navbar-end">
+                    
+                    <a href="https://github.com/FACON-Nicolas" class="navbar-item is-hidden-touch" title="GitHub">
+                    <span class="icon"><i class='fab fa-github'></i></span></a>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script>
+        $(document).ready(function () {
+            $(".navbar-burger").click(function () {
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+            })
+        })
+    </script>
+</header>
+<div id="content">
+<div class="container">
+    <div class="section">
+        <div class="content is-flex">
+            <div class="column is-half">
+                
+                <figure class="image">
+                    <img style="width: 256px;" class="is-rounded" src="/images/me.png">
+                </figure>
+                
+            </div>
+            <div class="column is-half">
+                <h1 style="line-height: 256px; font-size: 60px;">Facon Nicolas</h1>
+            </div>
+        </div>
+        <div>
+            <h1 style="font-size: 30px; font-weight: 800" align="center">📚 Skills 📚</h1>
+            <hr>
+        </div>
+        <div align="center" style="padding-bottom: 20px;">
+            Bonjour, bienvenue sur mon portfolio ! Je m'appelle Facon Nicolas, je suis actuellement étudiant en première année de BUT (ex-DUT) en Informatique à l'IUT de Lens.
+        </div>
+        <div>
+            <table align="center" border="1 solid black">
+                <thead>
+                    <tr>
+                        <th width="400px" align="center" colspan="2">Software Development</th>
+                        <th width="400px" align="center" colspan="2">Web Development</th>
+                        <th width="400px" align="center" colspan="2">Computer Graphics</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td width="200px" align="center">C++</td>
+                        <td width="200px" align="center">Java</td>
+                        <td width="200px" align="center">HTML</td>
+                        <td width="200px" align="center">CSS</td>
+                        <td width="200px" align="center">Unity</td>
+                        <td width="200px" align="center">Photoshop</td>
+                    </tr>
+                    <tr>
+                        <td width="200px" align="center">Python</td>
+                        <td width="200px" align="center">C#</td>
+                        <td width="200px" align="center">SQL</td>
+                        <td width="200px" align="center">Git</td>
+                        <td width="200px" align="center">JavaFX</td>
+                        <td width="200px" align="center">SFML</td>
+                    </tr>
+                    <tr>
+                        <td width="200px" align="center">bash</td>
+                        <td width="200px" align="center">Git</td>
+                        <td width="200px" align="center">PL/SQL</td>
+                        <td width="200px" align="center"></td>
+                        <td width="200px" align="center">Pygame</td>
+                        <td width="200px" align="center"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+        </div><footer class="footer">
+    <div class="container">
+        <div class="columns has-text-centered">
+            
+                <div class="column is-narrow">
+                    <a href="/projets" class="">projets</a>
+                </div>
+            
+                <div class="column is-narrow">
+                    <a href="/apropos" class="">À propos</a>
+                </div>
+            
+        </div>
+    </div>
+</footer>
+</body>
+</html>
