@@ -1,4 +1,4 @@
-baseURL = 'http://faconicolas.fr/'
+baseURL = 'http://faconicolas.github.io/'
 languageCode = 'en-us'
 title = 'Portfolio'
 theme= 'iutdelens'
